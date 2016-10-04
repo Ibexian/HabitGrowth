@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  width: 90%;
+  height: 40vh;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: large;
+  background: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 500%;
+}
+
+.increment, .deincrement {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  margin: -1.25em 1.25em 1em 1.25em;
+  font-size: 200%;
+  display: inline-block;
+  background: #27ae60;
+  cursor: pointer;
+  float: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.deincrement {
+  float: right;
+  background: #c0392b;
+}
+
+.streakNumber {
+  font-size: 500%;
+  font-weight: bold;
+}
